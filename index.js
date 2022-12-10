@@ -17,7 +17,7 @@ const replaceVal = (tempVal, orgVal) => {
 
   return temperature;
 };
-
+// kunal
 const server = http.createServer((req, res) => {
   if (req.url == "/") {
     requests(
